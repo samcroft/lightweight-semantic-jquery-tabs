@@ -1,0 +1,21 @@
+A tiny jQuery plugin, with minimal [semantic] markup, for generating ui tabs.
+
+Usage
+
+$('dl').tabs();
+
+<dl>
+	<dt><a href="">Your link title</a></dt>
+	<dd>
+		<p>Your content.</p>
+	</dd>
+	<dt><a href="">Your link title</dt>
+	<dd>
+		<p>Your content.</p>
+	</dd>
+</dl>
+
+
+To-do
+
+- Add :target selector/hash fragment support for RESTful url usage
