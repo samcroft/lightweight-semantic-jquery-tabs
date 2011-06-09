@@ -5,6 +5,7 @@ body {
 dl {
 	position: relative;
 	float: left;
+	clear: left;
 	width: 500px;
 }
 	dl.enhance {
