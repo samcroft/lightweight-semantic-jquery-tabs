@@ -39,6 +39,7 @@ dl {
 			padding: 0 10px;
 			position: absolute;
 			top: 30px;
+			background: #FFF;
 			border: solid #333;
 			border-width: 1px 1px 0 0;
 		}
