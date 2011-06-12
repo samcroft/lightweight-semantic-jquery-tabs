@@ -11,7 +11,7 @@
 			el.css('height', dlHeight + currentHeight);
 		});
 
-		$('dt a').click(function(e){
+		$('dl.enhance dt a').click(function(e){
 			e.preventDefault();
 
 			$(this).parents('dl').find('.current').removeClass('current').next('dd').hide();
