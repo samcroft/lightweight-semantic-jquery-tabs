@@ -43,7 +43,3 @@ dl {
 			border: solid #333;
 			border-width: 1px 1px 0 0;
 		}
-			dl.enhance dd img {
-				float: right;
-				margin: 10px 0 10px 10px;
-			}
