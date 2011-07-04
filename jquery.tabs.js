@@ -11,8 +11,7 @@
 			
 			var hash = location.hash;
 			
-			var hasHash = el.find('a[href="'+hash+'"]');
-			if (hasHash.length) {
+			if (el.find('a[href="'+hash+'"]').length) {
 				current = el.find('a[href="'+hash+'"]').parent().addClass('current');
 			} else {
 				current = el.find('dt:first').addClass('current');
